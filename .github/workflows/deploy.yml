@@ -25,9 +25,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run generate
-        env:
-          # Project pages are served at /<repo-name>/, so the app needs to know its base path.
-          NUXT_APP_BASE_URL: /${{ github.event.repository.name }}/
+        # Served from the kusumahendra.com custom domain (see public/CNAME), so the
+        # app runs at the root and needs no base path override.
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .output/public
