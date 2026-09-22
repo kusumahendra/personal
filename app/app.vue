@@ -12,13 +12,13 @@
         <p class="text-sm font-medium tracking-wide text-neutral-600">
           Hi, I'm Kusuma Hendra
         </p>
-        <h1 class="mt-3 font-display text-5xl font-semibold tracking-tighter text-neutral-900 sm:text-6xl">
+        <h1 class="mt-3 font-display text-5xl font-semibold tracking-tighter text-neutral-900 sm:text-6xl text-balance">
           I turn
           <span class="text-neutral-500">"we should have a website"</span>
           into one.
         </h1>
-        <p class="mt-4 text-lg text-neutral-600 sm:text-xl">
-          From idea to online, made easy.
+        <p class="mt-4 max-w-2xl text-balance text-lg text-neutral-600 sm:text-xl">
+          Company profiles, online stores, and everything between — designed well, built to function.
         </p>
 
         <div class="mt-8 flex flex-wrap gap-2">
